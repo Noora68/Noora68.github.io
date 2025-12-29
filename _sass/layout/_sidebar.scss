@@ -262,11 +262,11 @@
     }
   }
 }
-/* Allow long affiliation names to wrap */
-.sidebar .author__content,
-.sidebar .author__name,
-.sidebar .author__bio {
-  white-space: normal;
+/* Allow employer (affiliation) to wrap to multiple lines */
+.sidebar .author__desktop .author__meta,
+.sidebar .author__desktop .author__meta span {
+  white-space: normal !important;
   word-break: break-word;
   overflow-wrap: anywhere;
 }
+
