@@ -14,5 +14,6 @@ My doctoral research focuses on elucidating the regulatory mechanisms of protein
 In parallel, I have developed a strong interest in AI-driven approaches for protein science. I worked on sequence-based protein representation learning and integrated deep learning models with biological interpretation. I developed PLiCat (Protein-Lipid interaction Categorization tool), the first sequence-based model to predict lipid-binding preference of the given protein using sequence as the only input.
 
 My goal is to bridge experimental structural biology with computational methods to better understand and design functional biomolecular systems.
+
 Contact information: feitong.dong@gmail.com
 
