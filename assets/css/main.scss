@@ -46,11 +46,24 @@
    Allow employer text to wrap
 =========================== */
 
-.author__content .author__bio,
-.author__content .author__urls li {
-  white-space: normal !important;
+@media (min-width: 1024px) {
+
+  .sidebar {
+    width: 280px !important;
+  }
+
+  .page {
+    padding-left: 310px !important;
+  }
+
 }
 
-.author__content {
-  word-break: break-word !important;
+/* ================================
+   Fix employer text not showing
+================================ */
+
+.author__urls li {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
 }
