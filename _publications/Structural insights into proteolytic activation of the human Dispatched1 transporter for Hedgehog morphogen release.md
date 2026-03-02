@@ -3,6 +3,24 @@ title: "Structural insights into proteolytic activation of the human Dispatched1
 collection: publications
 permalink: /publication/2021-hedgehog
 date: 2021-11-29
+authors:
+  - name: "Li W"
+    role: "first"
+    shared: true        # 共同第一作者
+  - name: "Wang L"
+    role: "first"
+    shared: true        # 共同第一作者
+  - name: "Wierbowski BM"
+    role: "first"
+    shared: true        # 共同第一作者
+  - name: "Lu M"
+  - name: "Dong F"
+  - name: "Liu W"
+  - name: "Li S"
+  - name: "Wang P"
+  - name: "Salic A"
+    role: "corresponding"
+  - name: "Gong X"
 venue: 'Nature Communications'
 paperurl: 'https://10.1038/s41467-021-27257-w'
 ---
