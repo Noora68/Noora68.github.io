@@ -4,6 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
 {% assign sorted_pubs = site.publications | sort: 'year' | reverse %}
 
 <div class="publications-list">
@@ -39,10 +40,10 @@ author_profile: true
             {% endunless %}
           {% endfor %}
 
-          <div style="text-align: justify; margin-bottom: 0.5em;">
-            {{ authors_list | markdownify }}, 
-            {% if pub.url %}
-              <strong><a href="{{ pub.url }}">{{ pub.title }}</a></strong>
+          <div style="text-align: justify; margin-bottom: 0.5em; word-wrap: break-word;">
+            {{ authors_list }},
+            {% if pub.doi %}
+              <strong><a href="https://doi.org/{{ pub.doi }}">{{ pub.title }}</a></strong>
             {% else %}
               <strong>{{ pub.title }}</strong>
             {% endif %}, <em>{{ pub.venue }}</em>, {{ pub.year }}.
@@ -83,10 +84,10 @@ author_profile: true
             {% endunless %}
           {% endfor %}
 
-          <div style="text-align: justify; margin-bottom: 0.5em;">
-            {{ authors_list | markdownify }}, 
-            {% if pub.url %}
-              <strong><a href="{{ pub.url }}">{{ pub.title }}</a></strong>
+          <div style="text-align: justify; margin-bottom: 0.5em; word-wrap: break-word;">
+            {{ authors_list }},
+            {% if pub.doi %}
+              <strong><a href="https://doi.org/{{ pub.doi }}">{{ pub.title }}</a></strong>
             {% else %}
               <strong>{{ pub.title }}</strong>
             {% endif %}, <em>{{ pub.venue }}</em>, {{ pub.year }}.
@@ -96,14 +97,6 @@ author_profile: true
     </div>
   </div>
 
-  <!-- 符号说明 -->
-  <div style="margin-top: 1em; font-size: 0.9em;">
-    <strong>Notes:</strong> * indicates co-first author; # indicates corresponding author; <strong>Dong F</strong> is bolded.
-  </div>
-
-</div>
-
-</div>
   <!-- 符号说明 -->
   <div style="margin-top: 1em; font-size: 0.9em;">
     <strong>Notes:</strong> * indicates co-first author; # indicates corresponding author; <strong>Dong F</strong> is bolded.
