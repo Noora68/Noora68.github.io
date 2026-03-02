@@ -42,21 +42,7 @@
     "vendor/font-awesome/brands"
 ;
 
-/* ===========================
-   Allow employer text to wrap
-=========================== */
 
-@media (min-width: 1024px) {
-
-  .sidebar {
-    width: 280px !important;
-  }
-
-  .page {
-    padding-left: 310px !important;
-  }
-
-}
 
 /* ================================
    Fix employer text not showing
