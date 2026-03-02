@@ -42,18 +42,15 @@
     "vendor/font-awesome/brands"
 ;
 
-/* =====================================
-   Custom: Widen left sidebar properly
-===================================== */
+/* ===========================
+   Allow employer text to wrap
+=========================== */
 
-@media (min-width: 1024px) {
+.author__content .author__bio,
+.author__content .author__urls li {
+  white-space: normal !important;
+}
 
-  .page {
-    padding-left: 350px !important;
-  }
-
-  .sidebar {
-    width: 320px !important;
-  }
-
+.author__content {
+  word-break: break-word !important;
 }
