@@ -42,19 +42,18 @@
     "vendor/font-awesome/brands"
 ;
 
-
-/* ====== 加宽左侧栏（Minimal Mistakes 专用）====== */
+/* ===============================
+   自定义：加宽左侧栏
+================================ */
 
 @media (min-width: 1024px) {
 
   .sidebar {
     width: 320px !important;
+    max-width: 320px !important;
   }
 
-  .page {
-    width: calc(100% - 320px) !important;
-  }
-
+  .page,
   .archive {
     width: calc(100% - 320px) !important;
   }
