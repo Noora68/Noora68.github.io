@@ -39,12 +39,14 @@ author_profile: true
             {% endunless %}
           {% endfor %}
 
-          {{ authors_list | markdownify }}, 
-          {% if pub.url %}
-            <strong><a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a></strong>
-          {% else %}
-            <strong>{{ pub.title }}</strong>
-          {% endif %}, <em>{{ pub.venue }}</em>, {{ pub.year }}.<br>
+          <div style="text-align: justify; margin-bottom: 0.5em;">
+            {{ authors_list | markdownify }}, 
+            {% if pub.url %}
+              <strong><a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a></strong>
+            {% else %}
+              <strong>{{ pub.title }}</strong>
+            {% endif %}, <em>{{ pub.venue }}</em>, {{ pub.year }}.
+          </div>
         {% endif %}
       {% endfor %}
     </div>
@@ -81,17 +83,25 @@ author_profile: true
             {% endunless %}
           {% endfor %}
 
-          {{ authors_list | markdownify }}, 
-          {% if pub.url %}
-            <strong><a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a></strong>
-          {% else %}
-            <strong>{{ pub.title }}</strong>
-          {% endif %}, <em>{{ pub.venue }}</em>, {{ pub.year }}.<br>
+          <div style="text-align: justify; margin-bottom: 0.5em;">
+            {{ authors_list | markdownify }}, 
+            {% if pub.url %}
+              <strong><a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a></strong>
+            {% else %}
+              <strong>{{ pub.title }}</strong>
+            {% endif %}, <em>{{ pub.venue }}</em>, {{ pub.year }}.
+          </div>
         {% endif %}
       {% endfor %}
     </div>
   </div>
 
+  <!-- 符号说明 -->
+  <div style="margin-top: 1em; font-size: 0.9em;">
+    <strong>Notes:</strong> * indicates co-first author; # indicates corresponding author; <strong>Dong F</strong> is bolded.
+  </div>
+
+</div>
   <!-- 符号说明 -->
   <div style="margin-top: 1em; font-size: 0.9em;">
     <strong>Notes:</strong> * indicates co-first author; # indicates corresponding author; <strong>Dong F</strong> is bolded.
