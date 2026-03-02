@@ -43,3 +43,20 @@
 ;
 
 
+/* ====== 加宽左侧栏（Minimal Mistakes 专用）====== */
+
+@media (min-width: 1024px) {
+
+  .sidebar {
+    width: 320px !important;
+  }
+
+  .page {
+    width: calc(100% - 320px) !important;
+  }
+
+  .archive {
+    width: calc(100% - 320px) !important;
+  }
+
+}
