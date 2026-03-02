@@ -1,4 +1,3 @@
-
 ---
 title: "PLiCat: decoding protein–lipid interactions by large language model"
 collection: publications
