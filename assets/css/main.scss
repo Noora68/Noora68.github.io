@@ -41,3 +41,17 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+
+/* 调整左侧栏宽度 */
+.sidebar {
+  width: 320px !important;
+  min-width: 320px !important;
+}
+
+@media (min-width: 1024px) {
+  .archive,
+  .page {
+    padding-left: 340px;
+  }
+}
