@@ -140,7 +140,7 @@ author_profile: true
 
   <!-- Notes -->
   <div style="margin-top: 1.5em; font-size: 0.9em;">
-    <strong>Notes:</strong> * indicates co-first author; # indicates corresponding author; <strong>Dong F</strong> is bolded.
+    <strong>Notes:</strong> * indicates co-first author; # indicates corresponding author.
   </div>
 
 </div>
