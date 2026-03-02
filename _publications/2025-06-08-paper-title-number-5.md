@@ -1,10 +1,7 @@
 ---
-- **Dong F#**, Wu J.  
-  PLiCat: Decoding protein-lipid interactions by large language model.  
-  *Briefings in Bioinformatics*, 2025.
-  [DOI]([https://doi.org/xxxx](https://doi.org/10.1093/bib/bbaf665))
-
-
+title: "Collaborative regulation of yeast SPT-Orm2 complex by phosphorylation and ceramide"
+collection: publications
+date: 2024-01-28
+venue: 'Cell Reports'
+paperurl: 'https://10.1016/j.celrep.2024.113717'
 ---
-
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
