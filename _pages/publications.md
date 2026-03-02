@@ -10,8 +10,9 @@ author_profile: true
 <style>
 .publication-entry {
   text-align: justify;
-  line-height: 1.65;
-  margin-bottom: 1.4em;
+  line-height: 1.75;
+  margin-bottom: 1.8em;   /* 每篇文章之间间距增大 */
+  font-size: 1.02rem;
 }
 
 .publication-entry a {
@@ -25,9 +26,12 @@ author_profile: true
 }
 
 .section-title {
-  font-weight: bold;
-  margin-bottom: 0.6em;
-  margin-top: 1.2em;
+  font-weight: 700;
+  font-size: 1.25rem;      /* 字体变大 */
+  margin-top: 2.2em;       /* 段前间距加大 */
+  margin-bottom: 1.2em;    /* 段后间距加大 */
+  border-bottom: 1px solid #ddd;  /* 可选：增加分隔感 */
+  padding-bottom: 0.3em;
 }
 </style>
 
