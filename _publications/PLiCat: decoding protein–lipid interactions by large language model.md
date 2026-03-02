@@ -8,6 +8,6 @@ authors:
     role: "first"
     role: "corresponding"
   - name: "Wu J"
-venue: 'Briefings in Bioinformatic'
+venue: 'Briefings in Bioinformatics'
 paperurl: 'https://doi.org/10.1093/bib/bbaf665'
 ---
